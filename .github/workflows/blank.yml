@@ -8,3 +8,5 @@ name: CI
       # run shellcheck
       - name: ShellCheck
         uses: ludeeus/action-shellcheck@1.1.0
+      - name: Writegood Check
+        uses: mnahinkhan/writegood-action@v1.0.0
